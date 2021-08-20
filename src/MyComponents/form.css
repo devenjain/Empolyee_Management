@@ -1,0 +1,92 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: E0FFFF;
+}
+
+.container {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password],
+input[type=number]:focus {
+    background-color: #ccd9ff;
+    outline: none;
+}
+
+
+/* input[type=date]{
+    width: 15%;
+padding: 10px;
+margin: 5px 0 22px 10px;
+display: inline-block;
+border: none;
+background: whitesmoke;  
+}
+
+input[type=date]:focus{
+    background - color: #b0fcb0 ;
+outline: none;  
+}   */
+
+div {
+    padding: 10px 0;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #4d79ff;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    margin-left: 20%;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.resetrbtn {
+    background-color: #3d3e41;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+    margin-left: 10%;
+}
+
+.resetbtn:hover {
+    opacity: 1;
+}
+
+.hrstyle {
+    height: 10px;
+    width: 100%;
+    border-width: 0;
+    color: black;
+    background-color: black;
+}
